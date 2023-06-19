@@ -1,13 +1,15 @@
 import { Routes, Route, Link } from 'react-router-dom';
 import HomePage from './pages/Home'
 import NewPage from './pages/New'
-import ContactPage from './pages/Contact'
+import ContactPage from '~/pages/Contact'
+import Button from '~/components/Button';
 
 import './App.css';
 
 function App() {
   return (
     <div className="app">
+      <Button/>
       <nav>
         <ul>
           <li>
